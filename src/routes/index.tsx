@@ -1,10 +1,10 @@
-import { component$ } from "@builder.io/qwik";
-import type { DocumentHead } from "@builder.io/qwik-city";
+import { component$ } from '@builder.io/qwik';
+import type { DocumentHead } from '@builder.io/qwik-city';
 
 export default component$(() => {
   return (
     <>
-      <h1>Hi 👋</h1>
+      <h1>Archetyper</h1>
       <p>
         Can't wait to see what you build with qwik!
         <br />
@@ -15,11 +15,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Welcome to Qwik",
+  title: 'Archetyper',
   meta: [
     {
-      name: "description",
-      content: "Qwik site description",
+      name: 'description',
+      content: 'Elevate your typing',
     },
   ],
 };
